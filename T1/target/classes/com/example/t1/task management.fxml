@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1437.0" style="-fx-background-color: light blue;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.t1.HelloController">
+    <children>
+        <AnchorPane layoutX="2.0" layoutY="2.0" prefHeight="838.0" prefWidth="1275.0">
+            <children>
+                <BorderPane layoutY="1.0" prefHeight="850.0" prefWidth="1338.0">
+                    <left>
+                        <Pane prefHeight="841.0" prefWidth="641.0" style="-fx-background-color: pink; -fx-background-radius: 2em;" BorderPane.alignment="CENTER">
+                            <children>
+                                <TextField layoutX="59.0" layoutY="244.0" prefHeight="33.0" prefWidth="381.0" promptText="   Search task or project" />
+                                <Label layoutX="59.0" layoutY="105.0" prefHeight="53.0" prefWidth="106.0" text="HI !">
+                                    <font>
+                                        <Font size="36.0" />
+                                    </font>
+                                </Label>
+                                <Label layoutX="57.0" layoutY="173.0" prefHeight="17.0" prefWidth="350.0" text="Welcome back to your workspace some work to be done :)" />
+                                <Pane layoutX="313.0" layoutY="18.0" prefHeight="91.0" prefWidth="208.0" />
+                                <GridPane layoutX="97.0" layoutY="355.0" prefHeight="171.0" prefWidth="329.0">
+                                    <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    </columnConstraints>
+                                    <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                    </rowConstraints>
+                                    <children>
+                                        <Button mnemonicParsing="false" onAction="#TOUCH" prefHeight="37.0" prefWidth="328.0" text="Create Task" />
+                                        <Button layoutX="10.0" layoutY="77.0" mnemonicParsing="false" onAction="#DELETE" prefHeight="37.0" prefWidth="328.0" text="Delete task" GridPane.rowIndex="1" />
+                                    </children>
+                                </GridPane>
+                            </children>
+                        </Pane>
+                    </left>
+                    <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <right>
+                        <AnchorPane BorderPane.alignment="CENTER">
+                            <children>
+                                <Pane layoutX="-85.0" prefHeight="662.0" prefWidth="645.0" style="-fx-background-radius: 2em;">
+                                    <children>
+                                        <Pane layoutX="92.0" prefHeight="429.0" prefWidth="458.0">
+                                            <children>
+                                                <Label layoutX="57.0" layoutY="100.0" prefHeight="17.0" prefWidth="414.0" />
+                                                <Line endX="567.5999145507812" endY="6.599952697753906" layoutX="77.0" layoutY="67.0" startX="-203.59999084472656" startY="6.599952697753906" strokeLineJoin="ROUND" />
+                                                <Line endX="577.9999389648438" endY="-6.399871826171875" layoutX="65.0" layoutY="477.0" startX="-190.00001525878906" startY="-6.399871826171875" />
+                                                <GridPane layoutX="-129.0" layoutY="95.0" prefHeight="317.0" prefWidth="773.0">
+                                                    <columnConstraints>
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.20001220703125" minWidth="10.0" prefWidth="100.0" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.20001220703125" minWidth="10.0" prefWidth="54.60003662109375" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="209.5999725341797" minWidth="10.0" prefWidth="209.5999725341797" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="168.7999755859375" minWidth="10.0" prefWidth="108.00002746582032" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.600048828125" minWidth="10.0" prefWidth="100.80002441406253" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="178.39999999999998" minWidth="10.0" prefWidth="94.40007324218755" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="89.4000244140625" minWidth="5.600000000000023" prefWidth="87.19992675781248" />
+                                                    </columnConstraints>
+                                                    <rowConstraints>
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    </rowConstraints>
+                                                    <children>
+                                                        <TextField text="   Task Id" GridPane.columnIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="Description" GridPane.columnIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="Status" GridPane.columnIndex="3" />
+                                                        <TextField layoutX="214.0" layoutY="17.0" text="Start Date" GridPane.columnIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="End date" GridPane.columnIndex="5" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="priority" GridPane.columnIndex="6" />
+                                                        <TextField prefHeight="26.0" prefWidth="71.0" text="1" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" text="3" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="10.0" layoutY="98.0" GridPane.columnIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="139.0" text="4" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="179.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" prefHeight="0.0" prefWidth="84.0" text="Task Id" GridPane.columnIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="DB connectivity setup" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="94.0" layoutY="58.0" prefHeight="0.0" prefWidth="84.0" text="java project" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="cia preparation" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="94.0" layoutY="139.0" prefHeight="0.0" prefWidth="84.0" text="Practicals preparation" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                                                        <TextField text="30%" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="210.0" layoutY="58.0" text="57%" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="210.0" layoutY="98.0" text="30%" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="210.0" layoutY="139.0" text="35%" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" text="1.12.2023" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="280.0" layoutY="58.0" text="1.11.2023" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="20.11.2023" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="20.12.2023" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                                                        <TextField layoutX="280.0" layoutY="58.0" text="20.12.2023" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                                                        <TextField text="26.11.2023" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                                                        <TextField text="27,12.2023" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                                                        <TextField GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                                                        <TextField text="HIGH" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+                                                        <TextField text="30.11.2023" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="459.0" layoutY="58.0" text="LOW" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="459.0" layoutY="98.0" text="HIGH" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="459.0" layoutY="139.0" text="HIIGH" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="459.0" layoutY="179.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                                                        <TextField layoutX="10.0" layoutY="43.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="10.0" layoutY="195.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                                                        <TextField layoutX="10.0" layoutY="225.0" text="Task Id" GridPane.columnIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="64.0" layoutY="195.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                                                        <TextField layoutX="64.0" layoutY="225.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="210.0" layoutY="195.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="280.0" layoutY="195.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="366.0" layoutY="195.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="280.0" layoutY="195.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                                                        <TextField layoutX="280.0" layoutY="225.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                                                        <TextField layoutX="10.0" layoutY="12.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="459.0" layoutY="195.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                                                        <Pane prefHeight="283.0" prefWidth="512.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="103.0" layoutY="17.0" text="User ID" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="1" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" text="1" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="98.0" text="1" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="10.0" layoutY="139.0" text="1" GridPane.rowIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="179.0" GridPane.rowIndex="5" />
+                                                        <TextField layoutX="10.0" layoutY="220.0" GridPane.rowIndex="6" />
+                                                        <TextField layoutX="10.0" layoutY="260.0" GridPane.rowIndex="7" />
+                                                    </children>
+                                                </GridPane>
+                                                <GridPane layoutX="-74.0" layoutY="487.0" prefHeight="262.0" prefWidth="689.0">
+                                                    <columnConstraints>
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="92.20001220703125" minWidth="10.0" prefWidth="54.60003662109375" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.00002746582032" minWidth="10.0" prefWidth="216.00002746582032" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="143.9999267578125" minWidth="10.0" prefWidth="101.80000000000001" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.999951171875" minWidth="10.0" prefWidth="109.0" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="184.0" minWidth="10.0" prefWidth="100.59999999999997" />
+                                                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="89.4000244140625" minWidth="0.0" prefWidth="87.0" />
+                                                    </columnConstraints>
+                                                    <rowConstraints>
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                                    </rowConstraints>
+                                                    <children>
+                                                        <TextField text="   Task Id" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="Description" GridPane.columnIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="Status" GridPane.columnIndex="2" />
+                                                        <TextField layoutX="214.0" layoutY="17.0" text="Start Date" GridPane.columnIndex="3" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="End date" GridPane.columnIndex="4" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" text="priority" GridPane.columnIndex="5" />
+                                                        <TextField text="1" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="98.0" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" prefHeight="24.0" prefWidth="43.0" text="Task Id" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="2" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="17.0" prefHeight="0.0" prefWidth="84.0" text="Sem preparation" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="94.0" layoutY="58.0" prefHeight="0.0" prefWidth="84.0" text="internship preparation" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                                        <TextField text="40%" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="210.0" layoutY="58.0" text="50%" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" text="15.1.2024" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="280.0" layoutY="58.0" text="1.3.2024" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="280.0" layoutY="58.0" text="15.2.2024" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                                        <TextField layoutX="10.0" layoutY="58.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                        <TextField text="HIGH" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                                        <TextField text="30.3.024" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="459.0" layoutY="58.0" text="HIGH" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+                                                        <TextField layoutX="10.0" layoutY="96.0" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="69.0" layoutY="160.0" prefHeight="0.0" prefWidth="84.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                                        <TextField GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="286.0" layoutY="226.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="392.0" layoutY="226.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                                                        <TextField layoutX="506.0" layoutY="226.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                                                    </children>
+                                                </GridPane>
+                                                <BorderPane layoutX="130.0" layoutY="350.0" prefHeight="10.0" prefWidth="147.0" style="-fx-background-color: #fbfcfc; -fx-background-radius: 2em;" />
+                                                <Label layoutX="-63.0" layoutY="24.0" prefHeight="49.0" prefWidth="322.0" text="Today">
+                                                    <font>
+                                                        <Font size="14.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                        </Pane>
+                                        <Label layoutX="20.0" layoutY="429.0" prefHeight="35.0" prefWidth="304.0" text="Upcoming">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Label>
+                                    </children></Pane>
+                            </children>
+                        </AnchorPane>
+                    </right>
+                </BorderPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
